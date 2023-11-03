@@ -1,0 +1,184 @@
+header{
+    display: flex;
+    background-color: rgb(80, 80, 185);
+    text-align: center;
+    padding: 20px;
+
+}
+body {
+    background-color: rgb(80, 80, 185);
+}
+main{
+    margin: 16px;
+    padding: 16px;
+    border-bottom: 1px solid #020202;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: rgb(20, 11, 156);
+    text-decoration: none;
+    font-size: large;
+    padding: 10px 20 px;
+}
+h1, h2, h3{
+    text-align: center;
+}
+a{
+    color: rgb(20, 11, 156);
+    font-size: 16px; 
+    font-family: 'Arial';
+}
+a:hover  {
+    color: rgb(12, 3, 3);
+}
+a img {
+    width: 25px; 
+    border: 1px solid #000;
+}
+
+.imgLogo{
+    width: 75px;
+    height: auto;
+    vertical-align:top;
+    margin-right: 5px;
+}
+.imgCarrusel{
+    width: 200;
+    height: auto;
+}
+.contenedorDos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgb(187, 187, 206);
+    }
+
+.contenedorUno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.carouselContenedor {
+    height: 200px;
+}
+
+.contenedorNav {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.tituloNav{
+    margin-right: 10px;
+}
+
+.listaTrabajos{
+    padding: 0;
+    margin: 0; 
+    list-style-position: inside; 
+}
+.contenedorFooter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div1, .div2, .div3{
+    flex: 1;
+    margin: 8px;
+    padding: 8px;
+}
+.contenedorPreguntas{
+    width: fit-content;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+    display: inline-block; 
+    margin: 10px;
+    }
+
+
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+}
+.input:hover {
+    background-color: #fbfbfb;
+    color: black;
+}
+.quienSomos{
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .contenedorPreguntas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact_form{
+        width: 220px;
+        height: auto;
+    }
+    input{
+        width: 170px;
+        height: 40;
+    }
+    textarea{
+        width: 170px;
+        height: 100px;
+    }
+}

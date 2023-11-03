@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Concepto y Espacio</title>
+</head>
+<body>
+        <header>
+            <section class="contenedorNav mx-auto text-center ">
+                <div class="contenedorDos">
+                    <img class="imgLogo" src="recursos/logo.webp" alt="logo">
+                    <h1 class="tituloNav">Concepto y Espacio Arquitectura </h1>
+                </div>
+                <div class="contenedorUno">
+                    <nav class="container">
+                        <ul class="row">
+                            <div class="col-sm">
+                                <li>
+                                    <a href="index.html" class="font-weight-bold" >inicio</a>
+                                </li>
+                            </div>
+                            <div class="col-sm">
+                                <li>
+                                    <a href="sobremi.html" class="font-weight-bold">sobre nosotros</a>
+                                </li>
+                            </div>
+                            <div class="col-sm">
+                                <li>
+                                    <a href="planosmunicipales.html" class="font-weight-bold">planos municipales</a>
+                                </li>
+                            </div>
+                            <div class="col-sm">
+                                <li>
+                                    <a href="contacto.html" class="font-weight-bold">contacto</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </header>
+    <main>
+        <h1>Formulario de Contacto</h1>
+        <article class="contact_form">
+        <form action="" id="myForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            
+            <input type="submit" value="Guardar contacto">
+        </form>
+    </article>
+    </main>
+    <footer class="contenedorFooter">
+        <div class="div1  border-end ">
+            <a href="mailto:conceptoyespacioarq@gmail.com">conceptoyespacioarq@gmail.com</a>
+            <p>(011) 15-3569-6367</p>
+            <p>Santo Tomé 3051, Buenos Aires, Argentina</p>
+        </div>
+        <div class="div2">
+            <a href="https://www.instagram.com/conceptoyespacioarq/"> <img src="/recursos/Instagram.webp" alt="imagen de Instagram"></a>
+            <a href="https://www.facebook.com/CONCEPTOYESPACIOARQ"> <img src="/recursos/Facebook.webp" alt="imagen de Facebook"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
